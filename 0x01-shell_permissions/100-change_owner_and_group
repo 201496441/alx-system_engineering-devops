@@ -1,2 +1,2 @@
-#!/bin/bash
-chown vincent
+!/bin/bash
+chown -hR vincent:stuff .
