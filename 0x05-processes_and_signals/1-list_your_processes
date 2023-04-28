@@ -5,4 +5,10 @@
 # Display in a user-oriented format
 # Show process hierarchy
 
-ps -auxf
+ps axjf > /tmp/processes
+
+# Format the process list, showing process name, PID, PPID, and command
+awk '{print $8, $2, $3, $11}' /tmp/processes
+
+# Clean up the temporary file
+rm /tmp/processes
