@@ -6,7 +6,6 @@
 # Show process hierarchy
 
 ps axjf > /tmp/processes
-
 # Format the process list, showing process name, PID, PPID, and command
 awk '{print $8, $2, $3, $11}' /tmp/processes
 
