@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
+
 #A script that connects to serve through a private key
 
-ssh -i ~/.ssh/school ubuntu@<100.26.225.174
-=======
-# Connects to server 34.138.32.248 with key in ~/.ssh/school
-
-ssh -i ~/.ssh/school ubuntu
->>>>>>> 293e6b1c99b7658518e46c814bcb2eb381df2f51
+ssh -i ~/.ssh/school ubuntu@<54.161.241.102
