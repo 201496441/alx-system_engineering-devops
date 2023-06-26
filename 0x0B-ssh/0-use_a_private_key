@@ -2,4 +2,4 @@
 
 #A script that connects to serve through a private key
 
-ssh -i ~/.ssh/school ubuntu@<54.161.241.102
+ssh -i ~/.ssh/school ubuntu
