@@ -1,5 +1,3 @@
-Outage Postmortem: Web Stack Debugging Project
-
 Issue Summary:
 Duration: August 10, 2023, 02:00 AM - August 10, 2023, 03:30 AM (UTC)
 Impact: Database service was down, causing 30% of users to experience slow response times and intermittent errors while accessing the application.
@@ -35,4 +33,3 @@ Periodic Audits: Conduct regular audits of application and database configuratio
 In conclusion, the recent outage was caused by a misconfigured database connection pool that resulted in performance degradation. The team took swift actions to investigate, identify, and resolve the issue. To prevent similar incidents in the future, we will enhance our monitoring, conduct thorough testing, and continuously improve our documentation and processes.
 
 By learning from this experience, we are committed to maintaining a resilient and reliable web stack that delivers a seamless experience to our users. We appreciate your understanding and support during this incident and will continue to prioritize the stability of our services.
-
